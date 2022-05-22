@@ -2,6 +2,41 @@
   text-align: center;
 }
 
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(37, 37, 37);
+  align-items: center;
+}
+
+.left{
+  color: white;
+  margin-left: 80px;
+}
+
+.mid{
+  display: flex;
+  gap: 50px;
+}
+
+.mid a{
+  color: white;
+  text-decoration: none;
+}
+
+.right{
+  margin-right: 80px;
+}
+
+.right button{
+  color: white;
+  background-color: rgb(0,136,167);
+  border: 0px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
